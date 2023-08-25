@@ -1,0 +1,49 @@
+.jobs {
+  display: flex;
+  flex-direction: column;
+}
+.jobsUnderHeader {
+  display: flex;
+  height: 80%;
+  padding: 10px;
+  flex-direction: row;
+  background-color: black;
+}
+.leftSide {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+}
+.img {
+  height: 40px;
+}
+.profile {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.line {
+  width: 100%;
+}
+.paraStyle {
+  color: white;
+  max-height: 20px;
+}
+.list {
+  margin-top: 0px;
+  list-style-type: none;
+}
+.input {
+  display: flex;
+  align-items: center;
+}
+.rightSide {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 70vw;
+  margin-left: 20px;
+}

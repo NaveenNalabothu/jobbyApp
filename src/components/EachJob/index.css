@@ -1,0 +1,20 @@
+.horizontal {
+  display: flex;
+  justify-content: center;
+}
+.vertical {
+  display: flex;
+  flex-direction: column;
+}
+.color {
+  color: white;
+}
+
+.logo {
+  height: 30px;
+}
+.nameAndR {
+  display: flex;
+
+  flex-direction: column;
+}
